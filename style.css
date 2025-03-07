@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: #ffedd8;
+}
+.box{
+    display: inline-flexbox;
+    height: 100px;
+    width: 100px;
+    color: #ffedd8;
+    background-color: #6f4518;
+  
+    font-size: 2em;
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #bc8a5f;
+}
+.newGame{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #bc8a5f;
+}
+.hide{
+    display: none;
+}
